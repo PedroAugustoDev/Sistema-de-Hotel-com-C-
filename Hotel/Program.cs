@@ -6,10 +6,10 @@ namespace HotelApp
 {
     public class Program
     {
+        private static int NUMERO_PADRAO_QUARTOS = 10;
         public static void Main(string[] args)
         {
-            // há dez quartos no hotel
-            Quarto[] quartos = new Quarto[10];
+            Quarto[] quartos = new Quarto[NUMERO_PADRAO_QUARTOS];
 
             //Lendo a quantidade de novos proprietáritos
             Console.Write("Digite a quantidade de proprietários a ser registrada: ");
